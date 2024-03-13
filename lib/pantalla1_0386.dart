@@ -12,17 +12,16 @@ class Pantalla1_0386 extends StatelessWidget {
         title: Text("Card p1 Mendoza0386"),
       ),
       body: Center(
-        child: Card(
-          elevation: 10,
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-          color: Color(0xff628ede),
-          child: Padding(
-            padding: EdgeInsets.all(20),
-            child: const Text(
-              "Card Mendoza",
-              style: TextStyle(fontSize: 30, color: Color(0xffcfddea)),
-            ),
+        child: Container(
+          color: Color(0xff9269f0),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(20),
+          margin: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+          alignment: Alignment.center,
+          child: Text(
+            "Card 1 Mendoza0386",
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),
